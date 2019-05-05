@@ -1,0 +1,14 @@
+{
+  "name": "webvtt2srt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parse": "node -r esm src/index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.22",
+    "get-stdin": "^7.0.0",
+    "subtitle": "^2.0.3"
+  }
+}
