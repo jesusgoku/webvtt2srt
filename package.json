@@ -1,5 +1,6 @@
 {
   "name": "webvtt2srt",
+  "description": "Convert WebVTT subtitles to SRT",
   "version": "1.0.0",
   "main": "dist/webvtt2srt.cjs.js",
   "module": "src/index.js",
@@ -7,6 +8,12 @@
     "webvtt2srt": "dist/webvtt2srt.cjs.js"
   },
   "license": "MIT",
+  "keywords": ["subtitles", "webvtt", "srt", "convert"],
+  "author": {
+    "name": "Jesús Urrutia",
+    "email": "jesus.urrutia@gmail.com",
+    "url": "https://jesusurrutia.com"
+  },
   "scripts": {
     "parse": "node -r esm src/index.js",
     "build": "node_modules/.bin/rollup -c",
