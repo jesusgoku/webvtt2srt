@@ -20,11 +20,11 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "esm": "^3.2.22",
     "get-stdin": "^7.0.0",
     "subtitle": "^2.0.3"
   },
   "devDependencies": {
+    "esm": "^3.2.22",
     "rollup": "^1.11.3"
   }
 }
