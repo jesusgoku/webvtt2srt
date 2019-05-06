@@ -1,10 +1,16 @@
 {
   "name": "webvtt2srt",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/webvtt2srt.cjs.js",
+  "module": "src/index.js",
+  "bin": {
+    "webvtt2srt": "dist/webvtt2srt.cjs.js"
+  },
   "license": "MIT",
   "scripts": {
-    "parse": "node -r esm src/index.js"
+    "parse": "node -r esm src/index.js",
+    "build": "node_modules/.bin/rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "esm": "^3.2.22",
